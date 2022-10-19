@@ -23,6 +23,13 @@ function escreva(){
 }
 
 
+function soma () {
+  let val1 = document . getElementById ("v1") . value ;
+   let val2 = document . getElementById ("v2") . value ;
+   let r = Number ( val1 ) + Number ( val2 ) ;
+   document . getElementById (" resultado ") . innerHTML = r ;
+  
+   }
 
 
 
